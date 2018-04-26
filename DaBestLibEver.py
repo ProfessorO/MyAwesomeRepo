@@ -7,11 +7,11 @@ def shout(stuff):
   Converts the string passed to it to all uppercase.
   Why aren't my doctests passing?!
   >>> shout("Hello")
-  HELLO!!!!!
+  'HELLO!!!!!'
   >>> shout("bye")
-  BYE!!!!!
+  'BYE!!!!!'
   """
-  return stuff.upper + "!!!1!"
+  return stuff.upper() + "!!!!!"
 
 if __name__ == "__main__":
   import doctest
