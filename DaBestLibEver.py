@@ -4,8 +4,7 @@ including translating regular strings into SHOUTED STRINGS!!!"""
 
 def shout(stuff):
   """str -> str
-  Converts the string passed to it to all uppercase.
-  Why aren't my doctests passing?!
+  Converts the string passed to it to all uppercase, with exclamation points.
   >>> shout("Hello")
   'HELLO!!!!!'
   >>> shout("bye")
