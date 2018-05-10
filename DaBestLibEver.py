@@ -12,6 +12,16 @@ def shout(stuff):
   """
   return stuff.upper() + "!!!!!"
 
+def whisper(stuff):
+	"""str -> str
+	Converts the string pass to it to all uppercase, with asterics.
+	>>> whisper("HELLO")
+	'*hello*'
+	>>>whisper("GoOdByE")
+	'*goodbye*'
+	"""
+	return '*' + stuff.lower() + '*'
+
 if __name__ == "__main__":
   import doctest
   doctest.testmod()
